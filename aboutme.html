@@ -8,28 +8,44 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<link rel="shortcut icon" type="image/x-icon" href="Media/favicon.ico">
   <link rel="stylesheet" href="csss/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
   <link rel="stylesheet" href="css/MDBFree/css/mdb.min.css">
   <link href="css/bootstrap-social.css" rel="stylesheet">
 </head>
 
 <style>
 
+h1{
+  font-size: 50px;
+}
+
+p
+{
+  font-size: 20px;
+}
+
+.bg-o
+{
+  font-family: 'Cormorant', serif;
+  color: white;
+  background-color: #7a263e;
+  background-image: url("https://www.transparenttextures.com/patterns/gray-floral.png");
+}
+
+footer{
+  color: white;
+  font-family: Arial !important;
+ }
 .navbar
 {
   margin-bottom: 0;
 }
-
-.bg
-{
-  background-color: #5D6D7E;
-  color: #ffffff;
-  background-size: cover;
-}
 .container-fluid
 {
   padding-top: 20px;
-  padding-bottom: 70px;
+  padding-bottom: 30px;
 }
 
 </style>
@@ -44,7 +60,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">The One True King</a>
+      <a class="navbar-brand" href="index.html">Rajiv Anisetti</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -54,13 +70,65 @@
   </div>
 </nav>
 
+<div class="text-centered bg-o">
+
 <div class="container-fluid bg text-center" id="About Me">
 <div class="animated zoomIn">
-    <h2>About Me</h2><br>
+    <h1>About Yours Truly</h1><br>
     <img src="Media/me.jpg" class="img-circle" alt="The King Himself" width="300" height="300"><br><br>
-    <p>I am currently a sophomore at the University of California, Los Angeles studying Computer Science. Besides coding, my hobbies include playing basketball, dominating in videogames, and fuckin' biches. I'm originally from the east coast (aka the<em> beast coast</em>) - New Jersey to be specific. I grew up in a town called Holmdel, where they founded the Big Bang Theory at the historic Bell Labs. And no, they didn't call it the "Big Bang" because I'm from there, I get asked that <i>a lot.</i> If you want to find out more about me (but of course you do - I'm a fuckin' beast), follow me to my social media links below or click that magical button below this.</p><br><br><br>
-    <a href="index.php" class="btn btn-default btn-lg"><span class="btn-danger"></span>Contact Me</a>
+    <p>To start off, I am currently a sophomore at the University of California, Los Angeles studying Computer Science. Before moving to the west coast, I grew up in Holmdel, New Jersey where I attended Holmdel High School. I was involved in the Student Council, National Honor Society, Science League, National Spanish Honor Society, and many more various activities. My main hobbies include any type of programming, breaking ankles on the basketball court (mostly my own), and dominating off the court in any videogames. If you feel like contacting me or following me on social media, scroll down past those pictures of that handsome young man and press the magical button.</p><br>
   </div>
 </div>
 
+<div class="container animated fadeInUp">
+  <h1 class="text-center">Moments</h1><br>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="Media/prom2k15.jpg">
+          <img src="Media/prom2k15.jpg" alt="Me!" style="width:100%">
+          <div class="caption"><em>
+          Here's a picture of me before Junior Prom. What a time!
+          </div></em>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="Media/hoco.jpg">
+          <img src="Media/hoco.jpg" alt="Also Me!" style="width:100%">
+          <div class="caption"><em>
+          Here's an extremely awkward picture of me pointing my index finger up after winning Homecoming King!</em>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="Media/wedding.jpg">
+          <img src="Media/wedding.jpg" alt="Surprise, it's me again!" style="width:100%">
+          <div class="caption"><em>
+          Here's a picture of me wearing a dress at my cousin's wedding! (just kidding, it's a traditional Indian sherwani #cultured)
+          </div></em>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="thumbnail">
+        <a href="Media/nms.jpg">
+          <img src="Media/nms.jpg" alt="Me for the last time..." style="width:100%">
+          <div class="caption"><em>
+          This picture was taken for being a National Merit Commended Scholar, but I honestly think I just look so damn fly and I'm committed to making this a meme.
+          </div></em>
+      </div>
+    </div>
+  </div>
+</div>
+
+<a class ="text-centered" href="contact.html" class="btn btn-default btn-lg"><span class="btn-danger"></span>Contact Me</a>
+
+<footer class="text-center">Created by Rajiv Anisetti ©<br><br></footer>
+
+</div>
+
 </body>
+</html>
