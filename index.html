@@ -20,14 +20,30 @@
 
 <style>
 
+.navbar-brand
+{
+  margin-left: 20px;
+}
+
+.navbar-right
+{
+  margin-right: 20px;
+}
+
 blockquote{
   font-size: 50px !important;
   font-family: 'Lobster';
 }
 
 
-footer{
+footer
+{
   color: black;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
  }
 
 h1{
@@ -63,7 +79,6 @@ h1{
 <body>
 
 <nav class="navbar navbar-default">
-  <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -76,10 +91,9 @@ h1{
       <ul class="nav navbar-nav navbar-right">
         <li><a href="aboutme.html">About Me</a></li>
         <li><a href="myprojects.html">My Projects</a></li>
-        <li><a href="contact.html">Contact Me</a></li>
+        <li><a href="contact.html">Contact Me</a></li>   
       </ul>
     </div>
-  </div>
 </nav>
 
 <video autoplay loop muted poster="screenshot.jpg" id="background">

@@ -16,8 +16,31 @@
 
  <style>
 
- footer{
+ .navbar-brand
+{
+  margin-left: 20px;
+}
+
+.navbar-right
+{
+  margin-right: 20px;
+}
+
+ footer
+ {
   color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+ }
+
+ body
+ {
+  background-image: url(Media/giphy.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
  }
 
 .navbar{
@@ -30,8 +53,6 @@ h1{
 }
 
 .bg{
-  	background-image: url(Media/giphy.gif);
-  	background-size: cover;
   	font-weight: bolder;
   }
  
@@ -41,10 +62,9 @@ h1{
   }
  </style>
 
-  <body>
+<body>
 
- <nav class="navbar navbar-default">
-  <div class="container">
+<nav class="navbar navbar-default">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -55,18 +75,23 @@ h1{
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.html">Back to Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="myprojects.html">My Projects</a></li>
+        <li><a href="contact.html">Contact Me</a></li>   
       </ul>
     </div>
-  </div>
 </nav>
 
 
-  	<div class="container-fluid bg text-center" id="Projects" >
-	<h1 class="animated slideInDown"><strong>My Projects</strong></h1> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-  <footer class="text-center">Created by Rajiv Anisetti ©<br><br></footer>
-	</div>
+<div class="container-fluid bg text-center" id="Projects" >
+	 <h1 class="animated slideInDown"><strong>My Projects</strong></h1> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br<br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+
+<div>
+  <footer>Created by Rajiv Anisetti ©</footer>
+</div>
 
 
 
-  </body>
+</body>
+</html>
