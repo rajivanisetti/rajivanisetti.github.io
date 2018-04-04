@@ -71,14 +71,13 @@ body, html {
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
   </div>
 </div>
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">RAJIV <span class="w3-hide-small">ANISETTI</span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"> RAJIV  <span class="w3-hide-small">ANISETTI</span>
   </div>
 </div>
 
@@ -92,10 +91,11 @@ body, html {
 
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Welcome to my website! My name is Rajiv Anisetti, but you can call me Raj. I was born in London and raised in Holmdel, New Jersey, but I currently call Los Angeles, California my ~. I'm a second-year undergraduate student at UCLA studying Computer Science. I see the beauty in all aspects of computer science - the front end is where I express myself and show my vision, while the back end is where the magic really happens and I can really get down to problem solving. Outside of the binary world, I love breaking ankles on the basketball court (mostly my own) and listening to my favorite artists such as Frank Ocean, The Weeknd, The Neighbourhood, SZA, Jorja Smith, and many more. Most people would describe me as laid back, comical, and ambitious. </p>
+      <p>Welcome to my website! My name is Rajiv Anisetti, but you can call me Raj. I was born in London and raised in Holmdel, New Jersey, but I currently call Los Angeles, California my ~. I'm a second-year undergraduate student at UCLA studying Computer Science. I see the beauty in all aspects of computer science - the front end is where I express myself and show my vision, while the back end is where the magic really happens and I can really get down to problem solving. Outside of the binary world, I love breaking ankles on the basketball court (mostly my own) and listening to my favorite artists such as Frank Ocean, The Weeknd, The Neighbourhood, SZA, Jorja Smith, and many more. Most people would describe me as laid back, comical, and ambitious. If I've piqued your interest, feel free to contact me using the form below!</p>
     </div>
   </div>
-  <p class="w3-large w3-center w3-padding-16">My Skills</p>
+  <p class=" w3-center w3-padding-16" style="font-size: 30px;">My Skills</p>
+
   <p class="w3-wide"><i class="fa fa-laptop"></i>C/C++</p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">Advanced</div>
@@ -142,7 +142,7 @@ body, html {
     </div>
 
     <div class="w3-col m4" style="font-family: 'Leckerli One', Helvetica, sans-serif; font-size: 30px;">
-      <p>BruinNav</p>
+      <p>Morse Decoder</p>
     </div>
 
   </div>
@@ -158,11 +158,15 @@ body, html {
     </div>
 
     <div class="w3-col m4">
-      <img src="/w3images/p3.jpg" style="width:100%" onclick="window.open('https://github.com/rajivanisetti/Neural-Net-Decoder', '_blank')" class="w3-hover-opacity" alt="Neural Net Decoder">
+      <img src="media/morse-alphabet.jpg" style="width:100%" onclick="window.open('https://github.com/rajivanisetti/Neural-Net-Decoder', '_blank')" class="w3-hover-opacity" alt="Neural Net Decoder">
     </div>
+  </div>
 
+  <div class="w3-row-padding w3-center">
     <button class="w3-button w3-padding-large w3-light-grey w3-center" style="margin-top:64px;" onclick="window.open('https://github.com/rajivanisetti','_blank')"> <i class="fa fa-github"></i> More Projects</button>
   </div>
+
+
 
 </div>
 
@@ -220,7 +224,7 @@ body, html {
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <a href="#" onclick="window.open('https://www.facebook.com/rajivanisetti', '_blank')"><i href="https://www.facebook.com/rajivanisetti" class="fa fa-facebook-official w3-hover-opacity"></i></a>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
@@ -233,7 +237,7 @@ body, html {
 <script>
 function myMap()
 {
-  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  myCenter=new google.maps.LatLng(34.0689, -118.4452);
   var mapOptions= {
     center:myCenter,
     zoom:12, scrollwheel: false, draggable: false,
@@ -276,11 +280,8 @@ function toggleFunction() {
     }
 }
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDsPxe9Lg9-TkFvO2JBgN9Oht6hTdl7LMg
+&callback=myMap"></script>
 
 </body>
 </html>
