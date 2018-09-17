@@ -20,7 +20,6 @@ body, html {
     line-height: 1.8;
 }
 
-/* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: fixed;
     background-position: center;
@@ -53,7 +52,6 @@ body, html {
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
-/* Turn off parallax scrolling for tablets and phones */
  @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
@@ -64,7 +62,6 @@ body, html {
 
 <body>
 
-<!-- Navbar  -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
@@ -76,7 +73,6 @@ body, html {
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
   </div>
 
-  <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
@@ -92,7 +88,6 @@ body, html {
 </div>
 
 
-<!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
   <h3 class="w3-center" style="font-family: 'Leckerli One', Helvetica, sans-serif; font-size: 45px;">About Yours Truly</h3>
   <div class="w3-row">
@@ -102,7 +97,7 @@ body, html {
 
     
     <div class="w3-col m6 w3-padding-large">
-      <p>   Welcome to my website! My name is Rajiv Anisetti, but you can call me Raj. I was born in London and raised in Holmdel, New Jersey, but I currently call Los Angeles, California my home. I'm a second-year undergraduate student at UCLA studying Computer Science. I see the beauty in all aspects of computer science - the front end is where I express myself and show my vision, while the back end is where the magic really happens and I can really get down to problem solving.</p><p> Outside of the binary world, I love breaking ankles on the basketball court (mostly my own) and listening to my favorite artists such as Frank Ocean, The Weeknd, The Neighbourhood, SZA, Jorja Smith, and many more. Most people would describe me as laid back, comical, and ambitious. If I've piqued your interest, feel free to contact me using the form below!</p>
+      <p>   Welcome to my website! My name is Rajiv Anisetti, but you can call me Raj. I was born in London and raised in Holmdel, New Jersey, but I currently call Los Angeles my home. I'm a third-year undergraduate student at UCLA studying Computer Science. I see the beauty in all aspects of computer science - the front end is where I express myself and show my vision, while the back end is where the magic really happens and I can really get down to problem solving.</p><p> Outside of the binary world, I love breaking ankles on the basketball court (mostly my own) and making/listening to music. Most people would describe me as laid back, comical, and ambitious. If I've piqued your interest, feel free to contact me using the form below!</p>
     </div>
   </div>
 </div>
@@ -115,36 +110,26 @@ body, html {
 
 <div class="w3-content w3-container w3-padding-64">
 
-  <p class="w3-wide"><i class="fa fa-laptop"></i>C/C++</p>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>C/C++, HTML, CSS, Angular, Go</p>
   <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">Strongest</div>
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">Proficient</div>
   </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>HTML/CSS</p>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Java, Python, SQL, </p>
   <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">Proficient</div>
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">Familiar</div>
   </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Java</p>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>JavaScript, </p>
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:50%">Intermediate</div>
   </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Javascript</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:37.5%">Beginner</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-laptop"></i>Python</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:37.5%">Beginner</div>
-  </div>
 </div>
 
-<!-- Second Parallax Image with Portfolio Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min" id="portfolio">
   <div class="w3-display-middle">
     <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">PORTFOLIO <span class="w3-hide-small"></span>
   </div>
 </div>
 
-<!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64">
   <p class="w3-center"><em>Here are a few of my latest projects.<br> Click on the images to check out their Github repos!</em></p><br>
 
@@ -186,20 +171,18 @@ body, html {
   </div>
 </div>
 
-<!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min" id="contact">
   <div class="w3-display-middle">
      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">CONTACT<span class="w3-hide-small"></span>
   </div>
 </div>
 
-<!-- Container (Contact Section) -->
 <div class="w3-content w3-container w3-padding-64">
   <p class="w3-center"><em>If I intrigue you, feel free to connect with me!</em></p>
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
-      <!-- Add Google Maps -->
+
       <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
     </div>
     <div class="w3-col m8 w3-panel">
@@ -228,7 +211,6 @@ body, html {
   </div>
 </div>
 
-<!-- Footer -->
 <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
@@ -238,7 +220,6 @@ body, html {
   </div>
 </footer>
  
-<!-- Add Google Maps -->
 <script>
 function myMap()
 {
@@ -256,7 +237,6 @@ function myMap()
   marker.setMap(map);
 }
 
-// Modal Image Gallery
 function onClick(element) {
   document.getElementById("img01").src = element.src;
   document.getElementById("modal01").style.display = "block";
@@ -264,7 +244,6 @@ function onClick(element) {
   captionText.innerHTML = element.alt;
 }
 
-// Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
 function myFunction() {
     var navbar = document.getElementById("myNavbar");
@@ -275,7 +254,6 @@ function myFunction() {
     }
 }
 
-// Used to toggle the menu on small screens when clicking on the menu button
 function toggleFunction() {
     var x = document.getElementById("navDemo");
     if (x.className.indexOf("w3-show") == -1) {
